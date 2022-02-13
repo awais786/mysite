@@ -47,7 +47,6 @@ jobs:
         mysql -V
     - name: Install Python dependencies
       run: |
-        pip install -r requirements/production.txt
         pip install django==3.2.12
         pip uninstall -y mysqlclient
         pip install --no-binary mysqlclient mysqlclient
