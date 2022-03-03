@@ -9,7 +9,7 @@ on:
 
 jobs:
   check_migrations:
-    name: check migrations django22
+    name: check migrations django30
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
