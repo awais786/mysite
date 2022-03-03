@@ -1,2 +1,6 @@
 # mysite
-mysql8 testing
+# step 1
+docker-compose up
+
+
+
