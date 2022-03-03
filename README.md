@@ -1,4 +1,5 @@
-# mysite for local
+## Django32 throws error on running migrations
+
 
 feat: mysql8 is generating internal checks if model has `PositiveIntegerField`.
 
