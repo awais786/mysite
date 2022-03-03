@@ -13,7 +13,8 @@ the additional characters required for the constraint name may cause that name t
 in an error.`
 
 
-This issue appears only for django32 with mysql8.
+# This issue appears only for django32 with mysql8.
+# Two workflows added one is running django32 and 2nd django22. 
 
 # step 1
 docker-compose up
