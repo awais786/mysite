@@ -12,6 +12,9 @@ of the table name plus _ibfk_ or _chk_ and a number. If the table name is close 
 the additional characters required for the constraint name may cause that name to exceed the limit, resulting 
 in an error.`
 
+
+This issue appears only for django32 with mysql8.
+
 # step 1
 docker-compose up
 
