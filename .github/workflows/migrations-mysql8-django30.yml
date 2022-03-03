@@ -1,4 +1,4 @@
-name: Migrations check on mysql8-django2.2
+name: Migrations check on mysql8-django30
 
 on:
   workflow_dispatch:
@@ -9,7 +9,7 @@ on:
 
 jobs:
   check_migrations:
-    name: check migrations django22
+    name: check migrations django30
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
