@@ -1,7 +1,7 @@
 # Django32 throws error on running migrations. It happens with long table names
 
 
-# mysql8 is generating internal checks if model has `PositiveIntegerField`.
+# mysql8 is generating internal checks if model has PositiveIntegerField.
 
 `error django.db.utils.OperationalError: (1059, "Identifier name 'polls_whiteboxstudentsexaminationdatatransferauditiontesting_chk_1' is too long")`
 
