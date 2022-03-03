@@ -11,7 +11,7 @@ the additional characters required for the constraint name may cause that name t
 in an error.`
 
 
-# Two workflows added one is running django32 and 2nd django22. Only django32 throws error.
+# Two workflows added one is running django32 and 2nd django22. Only django32 throws error
 
 # step 1
 docker-compose up
