@@ -1,4 +1,4 @@
-name: Migrations check on mysql8-django2.2
+name: Migrations check on mysql8-django30
 
 on:
   workflow_dispatch:
