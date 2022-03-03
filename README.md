@@ -1,6 +1,4 @@
 # Django32 throws error on running migrations. It happens with long table names
-
-
 # mysql8 is generating internal checks if model has PositiveIntegerField.
 
 `error django.db.utils.OperationalError: (1059, "Identifier name 'polls_whiteboxstudentsexaminationdatatransferauditiontesting_chk_1' is too long")`
@@ -14,8 +12,7 @@ the additional characters required for the constraint name may cause that name t
 in an error.`
 
 
-# This issue appears only for django32 with mysql8.
-# Two workflows added one is running django32 and 2nd django22. 
+# Two workflows added one is running django32 and 2nd django22. Only django32 throws error.
 
 # step 1
 docker-compose up
