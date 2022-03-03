@@ -9,7 +9,7 @@ WORKDIR /mysite
 # this prevents the image cache from busting unless the dependencies have changed.
 COPY requirements/production.txt /mysite/requirements/production.txt
 
-# Dependencies are installed as root so they cannot be modified by the application user.
+# Dependencies are installed as root so they cannot be modified by the application user
 RUN pip install -r requirements/production.txt
 RUN pip install mysqlclient
 ADD . /mysite/
