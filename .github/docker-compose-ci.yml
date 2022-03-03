@@ -16,3 +16,19 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: ""
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    links:
+      - mysql57
+    volumes:
+      - .:/mysite
+    ports:
+      - "8000:8000"
+    expose:
+      - "8000"
+    depends_on:
+      - mysql57
+      - mysql80
+    restart: always
