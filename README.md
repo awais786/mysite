@@ -1,4 +1,4 @@
-## Django32 throws error on running migrations. It happens with long table names
+# Django32 throws error on running migrations. It happens with long table names
 
 
 # mysql8 is generating internal checks if model has `PositiveIntegerField`.
